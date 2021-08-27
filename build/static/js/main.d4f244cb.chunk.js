@@ -1,2 +1,0 @@
-(this["webpackJsonp00-react-activities"]=this["webpackJsonp00-react-activities"]||[]).push([[0],{9:function(e,t,c){"use strict";c.r(t);c(1);var n=c(3),r=c.n(n),a=c(0);var i=function(){return Object(a.jsx)("div",{className:"container",children:Object(a.jsx)("h2",{children:"Hello world! I am a React Component"})})};var s=function(){return Object(a.jsx)(i,{})};r.a.render(Object(a.jsx)(s,{}),document.getElementById("root"))}},[[9,1,2]]]);
-//# sourceMappingURL=main.d4f244cb.chunk.js.map

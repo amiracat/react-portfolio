@@ -1,9 +1,12 @@
 import React from 'react';
+import '../../styles/style.css';
+
+
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="content">
+      <h2>About Page</h2>
       <p>I am passionate about words, technology and accessibility.</p>
 
       <p>My background is in front-end applications and content management. I am enrolled in a Coding Bootcamp through the University of Minnesota to expand my skills to include front-end and back-end development.</p>

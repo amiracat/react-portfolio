@@ -1,0 +1,24 @@
+#root {
+    background: #E8F1F2;
+    /* #dbcdc6 silver nah */
+  }
+  
+  .content {
+    padding: 50px;
+   
+  }
+
+
+  h2 {
+    /* margin: 5; */
+    padding-top: 75px;
+    text-align: left;
+    color: #1f1a38;
+    font-size: 10rem;
+  }
+  
+  .nav {
+    background: #13293d;
+    color: white;
+    padding: 10;
+  }
