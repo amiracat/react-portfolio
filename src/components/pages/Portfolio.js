@@ -1,9 +1,11 @@
 import React from 'react';
 import '../../styles/style.css';
+import Footer from '../Footer';
+
 
 export default function Portfolio() {
   return (
-    <div className="content">
+    <div><div className="content">
       <h2>Portfolio</h2>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
@@ -13,5 +15,7 @@ export default function Portfolio() {
         sed pretium risus rutrum eget. 
       </p>
     </div>
+   <Footer />
+   </div>
   );
 }

@@ -5,6 +5,7 @@ import React from 'react';
 
 function NavTabs({ currentPage, handlePageChange }) {
   return (
+    <div className="nav">
     <ul className="nav nav-tabs" style={{display: 'flex', justifyContent: 'flex-end'}}>
       <li className="nav-item">
         <a
@@ -44,6 +45,15 @@ function NavTabs({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    <div className="container">
+      <h1 className="title">
+        Amira Holden
+      </h1>
+      <p className="title">
+        Coder. Content Strategist. Collaborator.
+      </p>
+    </div>
+    </div>
   );
 }
 
