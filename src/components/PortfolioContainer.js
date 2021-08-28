@@ -8,7 +8,6 @@ import Resume from './pages/Resume';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  // TODO: Add a comment describing the functionality of this method
   //function that determines which page will be rendered
 
   const renderPage = () => {

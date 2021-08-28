@@ -1,11 +1,12 @@
 #root {
     background: #E8F1F2;
     /* #dbcdc6 silver nah */
+    
   }
   
   .content {
     padding: 50px;
-   
+    font-family: "Oswald", sans-serif;
   }
 
 
