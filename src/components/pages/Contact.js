@@ -20,7 +20,7 @@ export default function Contact() {
     <input className="blockc" type="text" name="message" />
   </label>
   
-  <input style={{ marginTop: '8px' }} type="submit" value="Submit" />
+  <input className="button" style={{ marginTop: '20px' }} type="submit" value="Submit" />
 </form>
       </p>
     </div>
