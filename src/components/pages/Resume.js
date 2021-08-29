@@ -4,7 +4,7 @@ import Footer from '../Footer';
 export default function Resume() {
   return (
     <div><div className="content">
-      <h2>Resume</h2>
+      <h2 id="h2">Resume</h2>
       <p>
         
 Resume here

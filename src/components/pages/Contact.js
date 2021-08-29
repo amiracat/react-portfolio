@@ -4,7 +4,7 @@ import Footer from '../Footer';
 export default function Contact() {
   return (
     <div><div className="content">
-      <h2>Contact</h2>
+      <h2 id="h2">Contact</h2>
       <p>
       <form className="blockc">
   <label className="blockc">
@@ -17,7 +17,7 @@ export default function Contact() {
   </label>
   <label className="blockc">
    Message:
-    <input  className="blockc"type="text" name="message" />
+    <input className="blockc" type="text" name="message" />
   </label>
   
   <input style={{ marginTop: '8px' }} type="submit" value="Submit" />

@@ -6,7 +6,7 @@ import Footer from '../Footer';
 export default function Portfolio() {
   return (
     <div><div className="content">
-      <h2>Portfolio</h2>
+      <h2 id="h2">Portfolio</h2>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu

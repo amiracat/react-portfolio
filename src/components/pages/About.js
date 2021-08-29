@@ -6,7 +6,7 @@ import Footer from '../Footer';
 export default function About() {
   return (
     <div><div className="content">
-      <h2>About me</h2>
+      <h2 id="h2">About me</h2>
       <img src="https://amiracat.github.io/portfolio/assets/amira-square.jpg" alt="Amira portrait" width="140"></img>
       <div className="bio">
       <p>I am passionate about words, technology and accessibility.</p>
