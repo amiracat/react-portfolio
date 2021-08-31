@@ -1,9 +1,12 @@
 import React from 'react';
 import Footer from '../Footer';
+import Header from '../Header';
 
 export default function Contact() {
   return (
-    <div><div className="content">
+    <div>
+      <Header />
+      <div className="content">
       <h2 id="h2">Contact</h2>
       <p>
       <form className="blockc">

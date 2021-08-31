@@ -4,7 +4,7 @@
   /* font-weight: bold; */
   color: #457b9d;
   font-size: 40px;
-  font-family: 'Arimo', sans-serif;
+  font-family: monospace;
 }
 
 #root {
@@ -17,14 +17,38 @@
   width: 80%;
 }
 
+.project-link {
+  font-size: larger;
+  color: #1d3557;
+  font-family: 'Arial', 'sans-serif';
+}
+
+.image {
+  border: 5px solid #a8dadc;
+  border-radius: 3px;
+  opacity: 0.8;
+  width: 100%;
+}
+
+.image :hover {
+  opacity: 1;
+}
+
+/* .one-project {
+  width: 400px;
+  margin-bottom: 5px;
+} */
+
+
+
 .hidden {
   display: none;
 }
 
 #resume {
-margin-top: 70px;
-justify-content: center;
-margin-bottom: 10px;
+  margin: 10px;
+  justify-content: center;
+
 }
 
 .blockc {
@@ -35,7 +59,7 @@ margin-bottom: 10px;
 }
 
 .icon {
-padding: 20px;
+  padding: 20px;
 }
 
 .title {
@@ -58,13 +82,12 @@ padding: 20px;
   color: #F1FAEE;
 }
 
-
 .hero {
   background: #1d3557;
   color: #F1FAEE;
-  padding: 20px 0;
+  padding: 2px 0 18px;
   border: none;
-margin: none;
+  margin: none;
 }
 
 .nav {
@@ -72,7 +95,7 @@ margin: none;
   background: #1d3557;
   background-color: #1d3557;
   color: #F1FAEE;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   display: flex;
 }
 
