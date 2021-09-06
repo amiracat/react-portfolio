@@ -5,10 +5,12 @@ import Header from '../Header';
 import Project from '../Project';
 
 import profile1 from '../../assets/triv-game-800x550.png';
-// import gitlogo from '../../assets/GitHub-Mark-32px.png';
 import profile2 from '../../assets/movie-800x550.png';
 import profile3 from '../../assets/regex-800x550.png';
 import profile4 from '../../assets/weather-800x550.png';
+import profile5 from '../../assets/workout-tracker-800x550.png';
+import profile6 from '../../assets/budget-800x550.png';
+
 
 export default function Portfolio() {
   return (
@@ -43,13 +45,13 @@ export default function Portfolio() {
             <Project
               key = "3"
               img = {profile3}  
-              imgAlt = "Online trivia game homepage"
-              project = "https://young-harbor-83683.herokuapp.com/"
+              imgAlt = "Hex code regex explained"
+              project = "https://gist.github.com/amiracat/2149063e2f66f08da6ae2fd02c49152e"
               projectAlt = "Tutorial explaining a specific regex"
               projectTitle = "Regular Expression tutorial"
-              gitHubRepo = "https://github.com/amiracat/trivialympics"
+              gitHubRepo = "https://gist.github.com/amiracat/2149063e2f66f08da6ae2fd02c49152e"
               gitHubAlt = "See gist on GitHub"
-              description = "This document explains how to decipher a regex, or regular expression, for searching for hex codes. It was fun to write and research." />
+              description = "This Gist document explains how to decipher a regex, or regular expression, for searching for hex codes. It was fun to write and research." />
             <Project
               key = "4"
               img = {profile4}  
@@ -64,24 +66,24 @@ export default function Portfolio() {
           <div className="row">
             <Project
               key = "5"
-              img = {profile1}  
-              imgAlt = "Online trivia game homepage"
-              project = "https://young-harbor-83683.herokuapp.com/"
-              projectAlt = "quiz question from trivia game"
-              projectTitle = "Project 5"
-              gitHubRepo = "https://github.com/amiracat/trivialympics"
+              img = {profile5}  
+              imgAlt = "workout tracker stats page"
+              project = "https://workout-tracker-deluxe.herokuapp.com/"
+              projectAlt = "fitness tracker with charts"
+              projectTitle = "Workout Tracker"
+              gitHubRepo = "https://github.com/amiracat/workout-tracker"
               gitHubAlt = "See game repository on GitHub"
-              description = "Uses MySQL, Express, Node, Handlebars, Green Sock animation deployed on Heroku" />
+              description = "Create and track workouts in this exercise app that uses MongoDB, Express, Node.js, API routes and is deployed on Heroku" />
             <Project
               key = "6"
-              img = {profile2}  
-              imgAlt = "Trivia Olympics game homepage"
-              project = "https://amiracat.github.io/what-should-i-watch/"
+              img = {profile6}  
+              imgAlt = "Budget tracker list of transactions"
+              project = "https://amiracat.github.io/online-offline-budget-tracker"
               projectAlt = "saved movies list"
-              projectTitle = "Project 6"
-              gitHubRepo = "https://github.com/amiracat/what-should-i-watch"
-              gitHubAlt = "See app repository on GitHub"
-              description = "Movie and drink recommender built with JQuery, Bulma and two APIs" />
+              projectTitle = "Online-Offline Budget Tracker"
+              gitHubRepo = "https://github.com/amiracat/online-offline-budget-tracker"
+              gitHubAlt = "See budget tracker repository on GitHub"
+              description = "Deployed on Heroku, this app tracks budget expenses and deposits whether you are online or offline." />
           </div> 
         </div>
       </div>

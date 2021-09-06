@@ -1,5 +1,7 @@
 h3 {
   font-family: monospace;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .content {
@@ -8,10 +10,9 @@ h3 {
   }
 
 .project-link {
-  font-size: larger;
+  font-size: 1.3rem;
   color: #1d3557;
-  font-family: 'Arial', 'sans-serif';
-
+  font-family: 'Acme';
 }
 
 .space-above {

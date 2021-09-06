@@ -16,8 +16,10 @@ export default function Resume() {
               <img className="image" id="resume" src={thumbnail} alt="thumbnail of resume"></img>
               <p><a href="https://amiracat.github.io/portfolio/amira-holden-resume.pdf" alt="open Amira's resume as PDF" target="_blank" rel="noreferrer"><button className="button" type="submit" value="Submit">Open resume (PDF)</button></a></p>
             </div>
-            <div className="col-md-1"></div>
-            <div className="col-md-4"><h3>Technical Skills</h3>
+            {/* <div className="col-md-1"></div> */}
+            <div className="col-md-6"><h3>Technical Skills</h3>
+            <div className="row">
+              <div className="col-md-6">
               <ul>
                 <li>HTML</li>
                 <li>CSS</li>
@@ -26,14 +28,21 @@ export default function Resume() {
                 <li>JQuery</li>
                 <li>React</li>
                 <li>Node.js</li>
-                <li>Front-end development</li>
                 <li>Express</li>
+              </ul>
+              </div>
+              <div className="col-md-6">
+              <ul>
+                <li>Front-end development</li>
+                
                 <li>MySQL</li>
                 <li>MongoDB</li>
                 <li>Debugging</li>
                 <li>UI/UX</li>
                 <li>AEM, WordPress</li>
               </ul>
+              </div>
+              </div>
             </div>
           </div>
         </div>
