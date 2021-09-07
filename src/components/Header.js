@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <div className="hero">
             <h1 className="title">
-              Amira Holden
+              Amira Holden!!! !!
             </h1>
             <p className="title">
                 Coder. Content Strategist. Collaborator.
