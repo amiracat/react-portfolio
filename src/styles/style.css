@@ -1,31 +1,50 @@
-#h2 {
-  padding: 70px 0 10px 0;
-  text-align: left;
-  /* font-weight: bold; */
-  color: #457b9d;
-  font-size: 40px;
-  font-family: 'Arimo', sans-serif;
-}
-
-#root {
-  background-color: #F1FAEE;
+h3 {
+  font-family: monospace;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .content {
-  padding: 0 150px 80px;
+  padding: 0 20px 60px;
   font-family: "Oswald", sans-serif;
-  width: 80%;
+  }
+
+.project-link {
+  font-size: 1.3rem;
+  color: #1d3557;
+  font-family: 'Acme';
 }
 
+.space-above {
+  padding-top: 10px;
+}
+
+.space-below {
+  padding-bottom: 20px;
+}
+
+.image {
+  border: 5px solid #a8dadc;
+  border-radius: 3px;
+  opacity: 1;
+  width: 170px;
+}
+
+.image :hover {
+  opacity: 0.5;
+}
+
+.one-project {
+  width: 90%;
+  margin-bottom: 5px;
+}
+
+
+/* 
 .hidden {
   display: none;
-}
+} */
 
-#resume {
-margin-top: 70px;
-justify-content: center;
-margin-bottom: 10px;
-}
 
 .blockc {
   display: block;
@@ -35,7 +54,7 @@ margin-bottom: 10px;
 }
 
 .icon {
-padding: 20px;
+  padding: 20px;
 }
 
 .title {
@@ -58,13 +77,12 @@ padding: 20px;
   color: #F1FAEE;
 }
 
-
 .hero {
   background: #1d3557;
   color: #F1FAEE;
-  padding: 20px 0;
+  padding: 2px 0 18px;
   border: none;
-margin: none;
+  margin: none;
 }
 
 .nav {
@@ -72,7 +90,7 @@ margin: none;
   background: #1d3557;
   background-color: #1d3557;
   color: #F1FAEE;
-  padding: 10px 10px 10px 10px;
+  padding: 10px 10px 0px 10px;
   display: flex;
 }
 
@@ -86,4 +104,40 @@ margin: none;
   border: none;
   border-radius: 4px;
   padding: 2px 20px 2px;
+  white-space: nowrap;
+}
+
+#button {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 2px 20px 2px;
+
+}
+
+#root {
+  background-color: #F1FAEE;
+}
+
+#h2 {
+  padding: 70px 0 10px 0; 
+  white-space: nowrap;
+  /* modifies wrap on mobile/responsive */
+  text-align: left;
+  /* font-weight: bold; */
+  color: #457b9d;
+  font-size: 40px;
+  font-family: Acme;
+}
+
+#resume {
+  margin: 10px 0px;
+}
+
+@media only screen and (min-width: 950px) {
+  .content {
+    padding: 0 150px 60px;
+    width: 80%;
+  }
 }

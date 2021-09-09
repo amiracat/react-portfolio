@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1c743f4f.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.510094bd.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.510094bd.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.b459f777.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b68634e8.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b68634e8.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.9f257361.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.9f257361.js.map",
     "static/css/2.818011ed.chunk.css": "/react-portfolio/static/css/2.818011ed.chunk.css",
-    "static/js/2.c4d949cc.chunk.js": "/react-portfolio/static/js/2.c4d949cc.chunk.js",
-    "static/js/2.c4d949cc.chunk.js.map": "/react-portfolio/static/js/2.c4d949cc.chunk.js.map",
+    "static/js/2.5642052d.chunk.js": "/react-portfolio/static/js/2.5642052d.chunk.js",
+    "static/js/2.5642052d.chunk.js.map": "/react-portfolio/static/js/2.5642052d.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
     "static/css/2.818011ed.chunk.css.map": "/react-portfolio/static/css/2.818011ed.chunk.css.map",
-    "static/css/main.1c743f4f.chunk.css.map": "/react-portfolio/static/css/main.1c743f4f.chunk.css.map",
-    "static/js/2.c4d949cc.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.c4d949cc.chunk.js.LICENSE.txt"
+    "static/css/main.b459f777.chunk.css.map": "/react-portfolio/static/css/main.b459f777.chunk.css.map",
+    "static/js/2.5642052d.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.5642052d.chunk.js.LICENSE.txt",
+    "static/media/amira-square.e5aa3c9e.jpg": "/react-portfolio/static/media/amira-square.e5aa3c9e.jpg",
+    "static/media/movie-800x550.5d5f4963.png": "/react-portfolio/static/media/movie-800x550.5d5f4963.png",
+    "static/media/regex-800x550.d37ebf0b.png": "/react-portfolio/static/media/regex-800x550.d37ebf0b.png",
+    "static/media/resume-thumbnail.3f9ac527.png": "/react-portfolio/static/media/resume-thumbnail.3f9ac527.png",
+    "static/media/triv-game-800x550.629f5af6.png": "/react-portfolio/static/media/triv-game-800x550.629f5af6.png",
+    "static/media/weather-800x550.22a0e9fb.png": "/react-portfolio/static/media/weather-800x550.22a0e9fb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9f257361.js",
     "static/css/2.818011ed.chunk.css",
-    "static/js/2.c4d949cc.chunk.js",
-    "static/css/main.1c743f4f.chunk.css",
-    "static/js/main.510094bd.chunk.js"
+    "static/js/2.5642052d.chunk.js",
+    "static/css/main.b459f777.chunk.css",
+    "static/js/main.b68634e8.chunk.js"
   ]
 }
