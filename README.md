@@ -4,10 +4,17 @@ Amira Holden is a professional with several years of experience in content manag
 
 In the bootcamp, she's learning HTML, CSS, Javascript, JQuery, React, MongoDB, APIs, Node.js, Handlebars.js templating engine, GraphPL and lots more. 
 
-<img width="600" alt="portfolio-top-aug" src="https://user-images.githubusercontent.com/80497167/127903085-c298c33c-ee0a-4843-9e75-e460e4fd2ce4.png">
+Here's a a mobile view of the About Me page: 
+
+<img width="200" alt="aboutme-mobile" src="https://user-images.githubusercontent.com/80497167/132792988-9e7fcd81-2125-4af0-bc33-9c1b266870c7.png">
+
+And here's a screengrab of the top of the Portfolio page viewed from a mobile device:
+
+<img width="200" alt="portfolio-mobile" src="https://user-images.githubusercontent.com/80497167/132793002-f8b19f37-169e-4bbf-a6c1-85eebe004288.png">
+
 
 Please take a look at her updated Portfolio (build using React) to see some highlights of her coding career so far, read Amira's biography and find out how to contact Amira via cell, email, GitHub and LinkedIn.
 
-<img width="600" alt="portfolio-contact-aug" src="https://user-images.githubusercontent.com/80497167/127903095-f4cd70da-7021-42bc-bac8-7c85e920c5b0.png">
+<img width="400" alt="contact-page" src="https://user-images.githubusercontent.com/80497167/132792942-7ad991f3-a78e-4aa7-a36b-38ef40aa2bd8.png">
 
-Here's a link to the portfolio: https://amiracat.github.io/react-portfolio/
+Find the portfolio deployed here: https://amiracat.github.io/react-portfolio/
